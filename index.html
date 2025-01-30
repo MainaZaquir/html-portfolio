@@ -166,6 +166,27 @@
         </div>
 
 
+        <script>
+            function toggleTheme() {
+                document.body.setAttribute('data-theme',
+                document.body.getAttribute('data-theme') === 'light'? 'dark' : 'light' );
+
+                const icon = document.querySelector('.theme-toggle i');
+                icon.classList.toggle('fa-moon');
+                icon.classList.toggle('fa-sun');
+            }
+
+            document.querySelectorAll('a[hreff^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior:'smooth'
+                    });
+                });
+            });
+        </script>
+
 
 
 
