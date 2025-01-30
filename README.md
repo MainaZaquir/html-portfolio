@@ -6,7 +6,7 @@
 <img src="assets/screenshot-light.png" alt="Portfolio Screenshot" width="800">
 
 ## Live Demo
-➡️ [View Live Portfolio](https://mainazaquir.github.io/portfolio/)
+➡️ [View Live Portfolio](https://html-portfolio-two-pi.vercel.app/)
 
 ## Features
 
