@@ -35,7 +35,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/MainaZaquir/portfolio.git
+git clone https://github.com/MainaZaquir/html-portfolio.git
 
 # Navigate to project directory
 cd portfolio
